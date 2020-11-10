@@ -1,0 +1,42 @@
+.page-header {
+    position: fixed;
+    background-color: #bb0000;
+    font-size: 1.1em;
+    z-index: 1;
+    height: 60px;
+    line-height: 60px;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.page-header nav {
+    display: inline-block;
+}
+
+.page-header a {
+    color: #ffffff;
+}
+
+.page-header a:hover {
+    color: #bebebe;
+}
+
+.page-header li {
+    display: inline-block;
+}
+
+.page-header ul {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-login {
+    float: right;
+    display: inline-block;
+}
+
+main{
+    padding-top: 60px;
+}
