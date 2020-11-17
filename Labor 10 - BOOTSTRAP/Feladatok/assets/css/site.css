@@ -1,0 +1,80 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Linkek színei */
+a { 
+    color: #9c3; 
+}
+
+a:hover{
+    color: #769e26;
+    text-decoration: none;
+}
+
+/* Címsorok */
+h1, h2{
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 34px;
+    color: #404040;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 { font-size: 18px; }
+
+p {
+    text-align: center;
+}
+
+.bt-dashed {
+    border-top: 1px dashed #ccc;
+}
+
+.card-footer.bg-transparent {
+    background-color: transparent;
+}
+
+a .dark-link {
+    color: #666;
+}
+
+a .dark-link:hover {
+    color: #769e26;
+}
+
+.card-link.smaller {
+    font-size: 12px;
+}
+
+.bg-color-black {
+    background-color: #000000;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.flex-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
